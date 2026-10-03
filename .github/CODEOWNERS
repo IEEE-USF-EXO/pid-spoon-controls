@@ -1,0 +1,6 @@
+# CODEOWNERS. Org teams, not individual accounts.
+* @IEEE-USF-EXO/pid-spoon-leads
+/firmware/ @IEEE-USF-EXO/pid-spoon-controls
+/companion/ @IEEE-USF-EXO/pid-spoon-controls
+/data/ @IEEE-USF-EXO/pid-spoon-controls
+/docs/ @IEEE-USF-EXO/pid-spoon-controls

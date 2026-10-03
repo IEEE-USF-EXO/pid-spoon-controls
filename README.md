@@ -1,0 +1,59 @@
+# pid-spoon-controls
+
+## Purpose
+
+Controls work for PID Spoon: firmware, control law, and companion tooling.
+
+The project charter, interface index and decision record are in [pid-spoon-hub](https://github.com/IEEE-USF-EXO/pid-spoon-hub).
+
+## Scope
+
+In this repo: firmware sources, control law, companion scripts, reviewed test summaries.
+
+Not in this repo: schematics and PCB (pid-spoon-electrical), CAD and drawings (pid-spoon-mechanical), raw bench logs (Drive).
+
+## Owner
+
+Team lead: @OscarC727. Org team: `pid-spoon-controls`.
+
+## Folder map
+
+| Path | Holds |
+| --- | --- |
+| `firmware/` | TODO: fill at kickoff |
+| `companion/` | TODO: fill at kickoff |
+| `data/` | TODO: fill at kickoff |
+| `docs/` | Reviewed notes, test summaries |
+
+The folder map is provisional. It follows the structure used by the matching EXO repo and will be adjusted once `docs/CHARTER.md` in pid-spoon-hub defines the scope.
+
+## How to contribute
+
+1. Pull `main` before you start: `git pull origin main`.
+2. Branch: `git checkout -b <your-name>/<short-description>`.
+3. Commit in small steps with a message that says what changed.
+4. Push: `git push -u origin <branch>`.
+5. Open a pull request and fill in all four sections of the template.
+6. One teammate reviews and approves, then you merge. Nobody pushes to `main` directly.
+
+## What never goes here
+
+- Passwords, tokens, API keys, personal email addresses, phone numbers. This repo is public. Deleting a file does not remove it from history; a committed secret must be rotated.
+- On-body sensor data, and any data from a person wearing part of a device. Gate S2 is open. Nothing of that kind goes into this repo or into Drive until a written faculty or PI determination exists.
+- Native CAD binaries and raw bench logs. Those stay in Drive. Commit a summary, not the raw file.
+
+## Drive folder
+
+[Controls](https://drive.google.com/drive/folders/1tAVVoZ_Ok8avel265PYHqf5Ve296_lIY)
+
+Raw files stay in Drive. A short summary goes in `docs/` and names the Drive file and the date. If the link says you need access, use Request access or ask a Project Lead.
+
+## Board
+
+PID Spoon organization board: to be added once the board is created.
+
+## Related repos
+
+- https://github.com/IEEE-USF-EXO/pid-spoon-hub
+- https://github.com/IEEE-USF-EXO/pid-spoon-electrical
+- https://github.com/IEEE-USF-EXO/pid-spoon-mechanical

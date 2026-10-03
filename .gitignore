@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+secrets.h
+build/
+.pio/
+*.elf
+*.hex
+data/raw/
