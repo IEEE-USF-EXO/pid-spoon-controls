@@ -44,7 +44,7 @@ The folder map is provisional. It follows the structure used by the matching EXO
 
 ## Drive folder
 
-[Controls](https://drive.google.com/drive/folders/1tAVVoZ_Ok8avel265PYHqf5Ve296_lIY)
+[Controls](https://drive.google.com/drive/folders/1jie8n23dzmk5Pc_jcJEEmj1bJYQxc9Tl)
 
 Raw files stay in Drive. A short summary goes in `docs/` and names the Drive file and the date. If the link says you need access, use Request access or ask a Project Lead.
 
